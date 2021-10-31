@@ -1,0 +1,58 @@
+#registerContainer{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 80%;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    
+} 
+
+#registerContainer * {
+    width: 100%;
+    margin: 10px;
+} 
+
+#title {
+    color:black;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ } 
+
+#subtitle {
+   color:black;
+   text-align: center;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   font-size: medium;
+   
+} 
+
+#buttons {
+    display: flex;
+    flex-direction: column;
+
+    width:40%;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    padding-left: 30%;
+}
+
+
+#buttons *{
+    height: 25px;
+    margin: 3px 16px 3px 16px;
+    border-radius: 5px;
+    background-color:rgb(116, 116, 218);
+    border-color: rgb(116, 116, 218);
+  
+}
+
+#registerBtn, #voteBtn{
+    height: 25px;
+    border-radius: 5px;
+    background-color:rgb(116, 116, 218);
+    border-color: rgb(116, 116, 218);
+  
+}
